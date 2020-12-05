@@ -132,3 +132,16 @@ body {
 #Color:hover{
 	color: steelblue;
 }
+
+/* Audios */
+
+.Audio {
+    text-align: center;
+	font-size: 670px;
+}
+
+Audio {
+    width: 250px;
+	height: 20px;
+	opacity: .25;
+}

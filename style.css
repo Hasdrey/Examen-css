@@ -26,12 +26,13 @@ body {
 }
 
 #Título {
-	width: 800px;
+	width: 890px;
+	height: 12%;
 	margin-bottom: 10px;
 }
 
 #Título {
-	background-color: #101010;
+	background-color: black;
 	font-family: Arial;
 	text-align: center;
 	font-size: 30px;
@@ -49,11 +50,11 @@ body {
 /* Navegación */
 
 #Navegacion {
-    width: 800px;
+    width: 890px;
     top: 5px;
 	margin: auto;
 	position: relative;
-	background-color: #202020;
+	background-color: black;
 	border-radius: 10px;
 	transition-property: box-shadow;
     transition-duration: .8s;
@@ -83,7 +84,7 @@ body {
 
 #Navegacion li:hover {
 	color: cadetblue;
-	background-color: #101010;
+	background-color: black;
 	font-size: 30px;
     box-shadow: 3px 3px 6px #66d4ff;
     transform: scale(1.5,1.5) rotate(10deg);
@@ -92,12 +93,14 @@ body {
 /* Imágenes */
 
 #Caja-imagenes {
-	width: 800px; 
+	text-align: center;
+	width: 850px; 
 	margin: auto;
 	margin-bottom: 10px;
 	border-radius: 10px;
-    background-color: #303030;
-    box-shadow: brown 1px 1px 5px 5px;
+    background-color: black;
+	box-shadow: brown 1px 1px 5px 5px;
+	border: 16px groove steelblue;
 }
 
 #Caja-imagenes div {
@@ -118,5 +121,14 @@ body {
 
 #Caja-imagenes img:hover {
 	box-shadow: 1px 1px 5px 5px #66d4ff;
-	transform: scale(1.5,1.5) rotate(10deg);
+	transform: scale(1.5,1.5);
+}
+
+#Color {
+	color: brown;
+	box-shadow: 3px 3px 6px slategray;
+}
+
+#Color:hover{
+	color: steelblue;
 }
